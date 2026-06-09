@@ -72,36 +72,6 @@ git clone https://github.com/azam-dpr/CityCare-Hospital.git
 cd CityCare-Hospital
 ```
 
-Open `index.html` in your browser.
-
----
-
-## 📂 Project Structure
-
-```text
-CityCare-Hospital/
-│
-├── index.html
-├── css/
-├── js/
-├── images/
-├── assets/
-└── README.md
-```
-
----
-
-## 🎯 Future Enhancements
-
-* Patient Login System
-* Doctor Dashboard
-* Online Consultation
-* Medical Records Management
-* Payment Gateway Integration
-* Admin Panel
-
----
-
 ## ⭐ Support
 
 If you found this project useful, please give it a star ⭐ on GitHub.
