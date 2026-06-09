@@ -40,7 +40,7 @@ The system focuses on improving user experience through an attractive interface,
 
 <div align="center">
 
-<img src="images/azam.jpg" width="180" style="border-radius:50%;">
+<img src="https://i.ibb.co/RkRCDg26/azam.png" width="180" style="border-radius:50%;">
 
 ### Azam
 
