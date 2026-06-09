@@ -1,6 +1,6 @@
 # 🏥 CityCare Hospital Management System
 
-![CityCare Banner](images/banner.png)
+![CityCare Banner](https://ibb.co/TxSx6h7v][img]https://i.ibb.co/PvnvKCPm/Screenshot-2026-06-09-140251.png)
 
 ## 📌 About The Project
 
