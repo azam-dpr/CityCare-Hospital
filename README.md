@@ -15,11 +15,6 @@ The system focuses on improving user experience through an attractive interface,
 ## 🌐 Live Demo
 
 Experience the CityCare Hospital Management System live:
-
-🔗 [CityCare Hospital Website](https://azam-dpr.github.io/CityCare-Hospital/)
-
----
-
 <p align="center">
   <a href="https://azam-dpr.github.io/CityCare-Hospital/">
     <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20Demo-Visit%20Website-0d9488?style=for-the-badge">
