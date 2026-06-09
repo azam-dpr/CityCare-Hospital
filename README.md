@@ -32,7 +32,6 @@ The system focuses on improving user experience through an attractive interface,
 | CSS3         | Styling       |
 | JavaScript   | Functionality |
 | Font Awesome | Icons         |
-| Google Fonts | Typography    |
 
 ---
 
@@ -42,7 +41,7 @@ The system focuses on improving user experience through an attractive interface,
 
 <img src="https://i.ibb.co/RkRCDg26/azam.png" width="180" style="border-radius:50%;">
 
-### Azam
+### Azam Sheikh
 
 Frontend Developer & Project Creator
 
@@ -61,16 +60,6 @@ Passionate about web development and creating modern, user-friendly digital solu
 | <img src="images/member3.jpg" width="80"> | Team Member 3 | Documentation    |
 
 ---
-
-## 🚀 Installation
-
-```bash
-git clone https://github.com/azam-dpr/CityCare-Hospital.git
-```
-
-```bash
-cd CityCare-Hospital
-```
 
 ## ⭐ Support
 
