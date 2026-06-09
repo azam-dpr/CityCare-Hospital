@@ -36,22 +36,6 @@ The system focuses on improving user experience through an attractive interface,
 
 ---
 
-## 📸 Project Screenshots
-
-### Home Page
-
-![Home Page](images/home.png)
-
-### Services Page
-
-![Services Page](images/services.png)
-
-### Appointment Page
-
-![Appointment Page](images/appointment.png)
-
----
-
 ## 👨‍💻 Developer
 
 <div align="center">
