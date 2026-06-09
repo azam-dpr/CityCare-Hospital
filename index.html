@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CityCare Hospital Management System</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== NAVBAR ==================== -->
+<header>
+  <nav>
+    <div class="logo">
+      <i class="fas fa-hospital-alt"></i>
+      CityCare Hospital
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#appointment">Appointment</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#team">Our Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#auth">Login</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-btn" id="themeBtn" title="Toggle Dark Mode">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#doctors">Doctors</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#team">Our Team</a>
+    <a href="#contact">Contact</a>
+    <a href="#auth">Login / Register</a>
+  </div>
+</header>
+
+<!-- ==================== HERO ==================== -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Your Health Is Our <span>Priority</span></h1>
+    <p>World-class healthcare with compassionate care, experienced specialists,
+       cutting-edge facilities, and 24/7 emergency support — all under one roof.</p>
+    <div class="hero-buttons">
+      <a href="#appointment" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+      <a href="#about" class="btn btn-outline"><i class="fas fa-info-circle"></i> Learn More</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hero-badge"><strong>120+</strong><span>Specialist Doctors</span></div>
+      <div class="hero-badge"><strong>5,000+</strong><span>Patients Treated</span></div>
+      <div class="hero-badge"><strong>300+</strong><span>Hospital Beds</span></div>
+      <div class="hero-badge"><strong>20+</strong><span>Departments</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TICKER ==================== -->
+<div class="stats-bar">
+  <div class="stats-ticker">
+    <span><i class="fas fa-circle-check"></i> NABH Accredited Hospital</span>
+    <span><i class="fas fa-ambulance"></i> 24/7 Emergency Services</span>
+    <span><i class="fas fa-phone"></i> Helpline: +91 9876543210</span>
+    <span><i class="fas fa-award"></i> Best Hospital Award 2025</span>
+    <span><i class="fas fa-heartbeat"></i> Advanced ICU &amp; Cardiac Care</span>
+    <span><i class="fas fa-flask"></i> NABL Certified Laboratory</span>
+    <!-- repeat for seamless loop -->
+    <span><i class="fas fa-circle-check"></i> NABH Accredited Hospital</span>
+    <span><i class="fas fa-ambulance"></i> 24/7 Emergency Services</span>
+    <span><i class="fas fa-phone"></i> Helpline: +91 9876543210</span>
+    <span><i class="fas fa-award"></i> Best Hospital Award 2025</span>
+    <span><i class="fas fa-heartbeat"></i> Advanced ICU &amp; Cardiac Care</span>
+    <span><i class="fas fa-flask"></i> NABL Certified Laboratory</span>
+  </div>
+</div>
+
+<!-- ==================== ABOUT ==================== -->
+<section id="about" class="section">
+  <div class="about-grid">
+    <div class="about-image-wrap reveal">
+      <img
+        src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80"
+        alt="Hospital" class="about-img">
+      <div class="about-float">
+        <strong>25+</strong>
+        <span>Years of Excellence</span>
+      </div>
+    </div>
+    <div class="reveal">
+      <span class="section-tag">About CityCare</span>
+      <h2 class="section-title">Leading Healthcare <br>Institution in Jaipur</h2>
+      <p class="section-sub">
+        CityCare Hospital is a premier multi-speciality hospital committed to delivering
+        patient-centred care, powered by advanced technology and a team of distinguished specialists.
+      </p>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-card-icon"><i class="fas fa-bullseye"></i></div>
+          <div>
+            <h4>Our Mission</h4>
+            <p>Deliver compassionate, evidence-based healthcare to every patient, regardless of background.</p>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon"><i class="fas fa-eye"></i></div>
+          <div>
+            <h4>Our Vision</h4>
+            <p>Become the most trusted and innovative healthcare provider in Rajasthan.</p>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-icon"><i class="fas fa-trophy"></i></div>
+          <div>
+            <h4>Our Achievement</h4>
+            <p>1,00,000+ successful treatments, NABH accreditation, and multiple national healthcare awards.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== SERVICES ==================== -->
+<div id="services" class="services-bg">
+  <div style="max-width:1200px;margin:auto;">
+    <div class="center">
+      <span class="section-tag" style="background:rgba(255,255,255,.12);color:#fff;">What We Offer</span>
+      <h2 class="section-title reveal" style="color:#fff;">Comprehensive Medical <br>Services</h2>
+      <p class="section-sub reveal" style="color:rgba(255,255,255,.65);margin:0 auto 0;">
+        From emergency response to complex surgery, we cover every facet of modern medicine.
+      </p>
+    </div>
+    <div class="service-grid">
+      <div class="service-card reveal"><i class="fas fa-ambulance"></i><h3>Emergency Care</h3><p>Round-the-clock emergency response</p></div>
+      <div class="service-card reveal"><i class="fas fa-pills"></i><h3>Pharmacy</h3><p>In-house dispensary &amp; medicines</p></div>
+      <div class="service-card reveal"><i class="fas fa-flask"></i><h3>Laboratory</h3><p>NABL certified diagnostic tests</p></div>
+      <div class="service-card reveal"><i class="fas fa-user-md"></i><h3>Surgery</h3><p>Minimally invasive procedures</p></div>
+      <div class="service-card reveal"><i class="fas fa-truck-medical"></i><h3>Ambulance</h3><p>GPS-enabled fleet city-wide</p></div>
+      <div class="service-card reveal"><i class="fas fa-heartbeat"></i><h3>ICU Care</h3><p>State-of-the-art intensive care</p></div>
+      <div class="service-card reveal"><i class="fas fa-baby"></i><h3>Maternity</h3><p>Pre &amp; post-natal expertise</p></div>
+      <div class="service-card reveal"><i class="fas fa-bone"></i><h3>Orthopaedics</h3><p>Joint replacement &amp; trauma care</p></div>
+      <div class="service-card reveal"><i class="fas fa-brain"></i><h3>Neurology</h3><p>Advanced brain &amp; nerve care</p></div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== DOCTORS ==================== -->
+<section id="doctors" class="section">
+  <div class="center">
+    <span class="section-tag">Expert Team</span>
+    <h2 class="section-title reveal">Meet Our Specialists</h2>
+    <p class="section-sub reveal">
+      Board-certified physicians with decades of combined experience in their fields.
+    </p>
+  </div>
+  <div class="doctor-grid">
+    <div class="doctor-card reveal">
+      <div class="doctor-img-wrap">
+        <i class="fas fa-user-md"></i>
+        <span class="doctor-badge">Cardiology</span>
+      </div>
+      <div class="doctor-info">
+        <h3>Dr. Raj Sharma</h3>
+        <p class="doctor-spec">Senior Cardiologist</p>
+        <div class="doctor-meta">
+          <span><i class="fas fa-clock"></i> 15 Years Exp.</span>
+          <span><i class="fas fa-calendar"></i> Mon – Sat</span>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-card reveal">
+      <div class="doctor-img-wrap">
+        <i class="fas fa-user-md"></i>
+        <span class="doctor-badge">Neurology</span>
+      </div>
+      <div class="doctor-info">
+        <h3>Dr. Priya Singh</h3>
+        <p class="doctor-spec">Consultant Neurologist</p>
+        <div class="doctor-meta">
+          <span><i class="fas fa-clock"></i> 12 Years Exp.</span>
+          <span><i class="fas fa-calendar"></i> Mon – Fri</span>
+        </div>
+      </div>
+    </div>
+    <div class="doctor-card reveal">
+      <div class="doctor-img-wrap">
+        <i class="fas fa-user-md"></i>
+        <span class="doctor-badge">Orthopaedics</span>
+      </div>
+      <div class="doctor-info">
+        <h3>Dr. Amit Verma</h3>
+        <p class="doctor-spec">Orthopaedic Surgeon</p>
+        <div class="doctor-meta">
+          <span><i class="fas fa-clock"></i> 10 Years Exp.</span>
+          <span><i class="fas fa-calendar"></i> Mon – Sat</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== APPOINTMENT ==================== -->
+<section id="appointment" class="section">
+  <div class="appt-grid">
+    <div class="appt-info reveal">
+      <span class="section-tag">Book a Visit</span>
+      <h2 class="section-title">Schedule Your Appointment</h2>
+      <p>Choose your department, preferred date and time, and our team will confirm within 2 hours.</p>
+      <div class="appt-features">
+        <div class="appt-feat"><i class="fas fa-check-circle"></i><span>No hidden charges or booking fee</span></div>
+        <div class="appt-feat"><i class="fas fa-bell"></i><span>SMS &amp; email reminders sent</span></div>
+        <div class="appt-feat"><i class="fas fa-shield-halved"></i><span>Your data is 100% confidential</span></div>
+        <div class="appt-feat"><i class="fas fa-clock"></i><span>Confirmation within 2 hours</span></div>
+      </div>
+    </div>
+    <div class="appt-form reveal">
+      <h3 style="font-family:'Playfair Display',serif;font-size:1.3rem;margin-bottom:1.5rem;color:var(--navy)">Patient Details</h3>
+      <form id="appointmentForm" novalidate>
+        <div class="form-row">
+          <div class="form-group" id="fg-name">
+            <label for="ap-name">Full Name *</label>
+            <input type="text" id="ap-name" placeholder="e.g. Rahul Kumar" required>
+            <span class="err-msg">Please enter your full name.</span>
+          </div>
+          <div class="form-group" id="fg-phone">
+            <label for="ap-phone">Phone Number *</label>
+            <input type="tel" id="ap-phone" placeholder="+91 98765 43210" required>
+            <span class="err-msg">Enter a valid 10-digit number.</span>
+          </div>
+        </div>
+        <div class="form-group" id="fg-email">
+          <label for="ap-email">Email Address *</label>
+          <input type="email" id="ap-email" placeholder="you@example.com" required>
+          <span class="err-msg">Enter a valid email address.</span>
+        </div>
+        <div class="form-row">
+          <div class="form-group" id="fg-dept">
+            <label for="ap-dept">Department *</label>
+            <select id="ap-dept" required>
+              <option value="">Select Department</option>
+              <option>Cardiology</option>
+              <option>Neurology</option>
+              <option>Orthopedic</option>
+              <option>Maternity</option>
+              <option>General Surgery</option>
+              <option>Pediatrics</option>
+              <option>Dermatology</option>
+            </select>
+            <span class="err-msg">Please select a department.</span>
+          </div>
+          <div class="form-group" id="fg-date">
+            <label for="ap-date">Preferred Date *</label>
+            <input type="date" id="ap-date" required>
+            <span class="err-msg">Select a future date.</span>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;margin-top:.5rem;">
+          <i class="fas fa-calendar-check"></i> Confirm Appointment
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== GALLERY ==================== -->
+<section id="gallery" class="section">
+  <div class="center">
+    <span class="section-tag">Our Facility</span>
+    <h2 class="section-title reveal">Hospital Gallery</h2>
+  </div>
+  <div class="gallery-grid reveal">
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=800&q=80" alt="Hospital ward">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80" alt="Hospital exterior">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="Medical equipment">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?auto=format&fit=crop&w=600&q=80" alt="ICU room">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80" alt="Lab">
+    </div>
+  </div>
+</section>
+
+<!-- ==================== TESTIMONIALS ==================== -->
+<div class="testimonials-bg">
+  <div style="max-width:1200px;margin:auto;">
+    <div class="center">
+      <span class="section-tag">Patient Stories</span>
+      <h2 class="section-title reveal">What Our Patients Say</h2>
+    </div>
+    <div class="testimonial-track" id="testTrack">
+      <div class="testimonial-slides" id="testSlides">
+        <!-- Slide 1 -->
+        <div class="testimonial-slide">
+          <div class="tcard reveal">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"The cardiac team at CityCare saved my father's life. The doctors were attentive, and the staff were incredibly kind throughout the entire process."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">RK</div>
+              <div><h5>Rahul Kumar</h5><span>Cardiac Patient's Son</span></div>
+            </div>
+          </div>
+          <div class="tcard reveal">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"From appointment booking to discharge, everything was smooth. Dr. Priya Singh's expertise in neurology is truly exceptional."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">NS</div>
+              <div><h5>Neha Sharma</h5><span>Neurology Patient</span></div>
+            </div>
+          </div>
+          <div class="tcard reveal">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"My knee replacement surgery went flawlessly. Dr. Verma is a brilliant surgeon and the physiotherapy team helped me recover faster than expected."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">MV</div>
+              <div><h5>Mohit Verma</h5><span>Orthopaedic Patient</span></div>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="testimonial-slide">
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"Best maternity experience I could have asked for. The nurses were warm, professional, and truly caring throughout my entire pregnancy."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">AP</div>
+              <div><h5>Anjali Patel</h5><span>Maternity Patient</span></div>
+            </div>
+          </div>
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"The emergency department responded within minutes. Highly trained professionals who work with remarkable calm under pressure."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">SK</div>
+              <div><h5>Suresh Khatri</h5><span>Emergency Patient</span></div>
+            </div>
+          </div>
+          <div class="tcard">
+            <div class="tcard-stars">★★★★★</div>
+            <p>"Cleanliness, technology, and empathy — CityCare has it all. My child's treatment was handled with utmost care and precision."</p>
+            <div class="tcard-author">
+              <div class="tcard-avatar">DM</div>
+              <div><h5>Divya Mehta</h5><span>Paediatric Parent</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-dots" id="sliderDots">
+      <button class="dot active" data-index="0"></button>
+      <button class="dot" data-index="1"></button>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== TEAM SECTION ==================== -->
+<div id="team" class="team-bg">
+  <div style="max-width:1200px;margin:auto;">
+    <div class="center">
+      <span class="section-tag">The People Behind It</span>
+      <h2 class="section-title reveal">Meet Our Team</h2>
+      <p class="section-sub reveal" style="margin-left:auto;margin-right:auto;">
+        The dedicated developers who built and maintain the CityCare Hospital Management System.
+      </p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-avatar">A</div>
+        <h3>Azam</h3>
+        <p class="team-role">Frontend Developer</p>
+        <p>Passionate about building clean, responsive interfaces and delivering smooth user experiences.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">M</div>
+        <h3>Muddasir</h3>
+        <p class="team-role">Backend Developer</p>
+        <p>Focused on building robust server-side logic and ensuring reliable data management across the system.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">A</div>
+        <h3>Arsh</h3>
+        <p class="team-role">UI/UX Designer</p>
+        <p>Crafts intuitive designs and thoughtful user flows that make complex healthcare processes feel simple.</p>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-avatar">K</div>
+        <h3>Kisna</h3>
+        <p class="team-role">Full Stack Developer</p>
+        <p>Bridges frontend and backend development, keeping the entire system integrated and running smoothly.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==================== LOGIN / REGISTER ==================== -->
+<section id="auth" class="section">
+  <div class="center">
+    <span class="section-tag">Patient Portal</span>
+    <h2 class="section-title reveal">Access Your Health Records</h2>
+    <p class="section-sub reveal">Login to view reports, prescriptions and appointment history.</p>
+  </div>
+  <div class="auth-grid reveal">
+    <div class="auth-card">
+      <h2>Patient Login</h2>
+      <p>Welcome back! Enter your credentials below.</p>
+      <form id="loginForm" novalidate>
+        <div class="form-group" id="fg-lemail">
+          <label for="l-email">Email Address *</label>
+          <input type="email" id="l-email" placeholder="you@example.com" required>
+          <span class="err-msg">Enter a valid email.</span>
+        </div>
+        <div class="form-group" id="fg-lpwd">
+          <label for="l-pwd">Password *</label>
+          <input type="password" id="l-pwd" placeholder="••••••••" required>
+          <span class="err-msg">Password is required.</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+          <i class="fas fa-sign-in-alt"></i> Login
+        </button>
+      </form>
+    </div>
+    <div class="auth-card" style="border-top:4px solid var(--teal);">
+      <h2>New Registration</h2>
+      <p>Create your patient account to get started.</p>
+      <form id="registerForm" novalidate>
+        <div class="form-group" id="fg-rname">
+          <label for="r-name">Full Name *</label>
+          <input type="text" id="r-name" placeholder="Your full name" required>
+          <span class="err-msg">Please enter your name.</span>
+        </div>
+        <div class="form-group" id="fg-remail">
+          <label for="r-email">Email Address *</label>
+          <input type="email" id="r-email" placeholder="you@example.com" required>
+          <span class="err-msg">Enter a valid email.</span>
+        </div>
+        <div class="form-row">
+          <div class="form-group" id="fg-rpwd">
+            <label for="r-pwd">Password *</label>
+            <input type="password" id="r-pwd" placeholder="••••••••" required>
+            <span class="err-msg">Min 6 characters.</span>
+          </div>
+          <div class="form-group" id="fg-rpwd2">
+            <label for="r-pwd2">Confirm *</label>
+            <input type="password" id="r-pwd2" placeholder="••••••••" required>
+            <span class="err-msg">Passwords don't match.</span>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-gold" style="width:100%;justify-content:center;">
+          <i class="fas fa-user-plus"></i> Register Now
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+<section id="contact" class="section">
+  <div class="center">
+    <span class="section-tag">Get In Touch</span>
+    <h2 class="section-title reveal">Contact Us</h2>
+  </div>
+  <div class="contact-grid reveal">
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+        <div><h4>Address</h4><p>Tonk Road, Jaipur, Rajasthan – 302015</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+        <div><h4>Phone</h4><p>+91 9876 543 210</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+        <div><h4>Email</h4><p>info@citycare.com</p></div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-item-icon"><i class="fas fa-clock"></i></div>
+        <div><h4>Working Hours</h4><p>Mon–Sat: 8 AM – 9 PM &nbsp;|&nbsp; Emergency: 24/7</p></div>
+      </div>
+    </div>
+    <div class="map-wrap">
+      <iframe
+        src="https://maps.google.com/maps?q=jaipur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        loading="lazy" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo"><i class="fas fa-hospital-alt"></i> CityCare Hospital</div>
+      <p style="margin-top:.85rem;">Committed to compassionate care and cutting-edge medicine for the people of Jaipur and beyond.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Our Doctors</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#team">Our Team</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#">Emergency Care</a></li>
+        <li><a href="#">Cardiology</a></li>
+        <li><a href="#">Neurology</a></li>
+        <li><a href="#">Orthopaedics</a></li>
+        <li><a href="#">Maternity</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#">Jaipur, Rajasthan</a></li>
+        <li><a href="tel:+919876543210">+91 9876 543 210</a></li>
+        <li><a href="mailto:info@citycare.com">info@citycare.com</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 CityCare Hospital Management System. All rights reserved.</span>
+    <span>Designed with <i class="fas fa-heart" style="color:#e74c3c"></i> for better healthcare</span>
+  </div>
+</footer>
+
+<!-- ==================== TOAST CONTAINER ==================== -->
+<div class="toast-container" id="toastContainer"></div>
+
+<!-- ==================== JAVASCRIPT ==================== -->
+<script src="script.js"></script>
+</body>
+</html>
